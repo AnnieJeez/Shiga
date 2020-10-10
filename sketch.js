@@ -23,6 +23,7 @@ function preload(){
   ladduImg = loadImage("images/laddu.png");
   ajiImg = loadImage("images/aji.png");
   kichuImg = loadImage("images/kicha.png");
+  bg = loadImage("images/weall.jpeg");
 }
 
 function setup(){
@@ -69,7 +70,7 @@ function setup(){
 
 
 function draw(){
-  background(44, 145, 22);
+  background(bg);
   if(gameState >0){
     clear();
     game.play();
