@@ -69,6 +69,7 @@ function setup(){
 
 
 function draw(){
+  background(44, 145, 22);
   if(gameState >0){
     clear();
     game.play();
